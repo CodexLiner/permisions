@@ -1,4 +1,4 @@
-﻿# permisions
+﻿# Permisions Checker For Android
  **how to use this **
  
  	dependencies {
