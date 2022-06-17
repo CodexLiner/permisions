@@ -26,7 +26,7 @@ allprojects {
 ## Usage
 ### Request Permissions
 ```java
-  new CodexPerms(this).requestPerms(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE});
+     new CodexPerms(this).requestPerms(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE});
 ```
 ### Check Permissions
 ```java
