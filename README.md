@@ -10,17 +10,17 @@ Include the library in your build.gradle
 dependencies {
         ...
         implementation 'com.github.CodexLiner:permisions:1.0'
-	}
+}
 ```
 
 ## Add it in your root build.gradle at the end of repositories:
 ```bash
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 ## Usage
