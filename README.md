@@ -25,10 +25,15 @@ allprojects {
 
 ## Usage
 ### Request Permissions
-```python
+```java
   new CodexPerms(this).requestPerms(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE});
 ```
 ### Check Permissions
-```python
-    new CodexPerms(this).hasPermision(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE});
+```java
+    if (new CodexPerms(this).hasPermision(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE})){
+            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
+    }
+    else {
+            Toast.makeText(this, "Permission Not Granted", Toast.LENGTH_SHORT).show();
+    }
 ```
